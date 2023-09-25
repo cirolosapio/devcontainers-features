@@ -1,10 +1,14 @@
 {
   "name": "alpine-docker",
   "id": "alpine-docker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Installs docker and docker-compose on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-docker",
   "options": {
+    "hostDockerGid": {
+      "type": "string",
+      "description": "Docker group id on the host machine (retrieve with \"getent group docker | cut -d: -f3\""
+    },
     "installDockerCompose": {
       "type": "boolean",
       "default": false,
