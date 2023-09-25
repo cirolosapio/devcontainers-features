@@ -15,7 +15,7 @@ Installs docker and docker-compose on aplpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| installDcokerCompose | Install Docker Compose? | boolean | true |
+| installDockerCompose | Install Docker Compose? | boolean | true |
 
 ## Customizations
 

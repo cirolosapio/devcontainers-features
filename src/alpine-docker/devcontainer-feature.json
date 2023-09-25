@@ -1,16 +1,23 @@
 {
   "name": "alpine-docker",
   "id": "alpine-docker",
-  "version": "0.0.3",
-  "description": "Installs docker and docker-compose on aplpine",
+  "version": "0.0.4",
+  "description": "Installs docker and docker-compose on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-docker",
   "options": {
-    "installDcokerCompose": {
+    "installDockerCompose": {
       "type": "boolean",
-      "default": true,
+      "default": false,
       "description": "Install Docker Compose?"
     }
   },
+  "mounts": [
+    {
+      "source": "/var/run/docker.sock",
+      "target": "/var/run/docker.sock",
+      "type": "bind"
+    }
+  ],
   "customizations": {
     "vscode": {
       "extensions": [
