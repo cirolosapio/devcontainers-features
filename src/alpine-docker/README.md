@@ -1,5 +1,5 @@
 
-# alpnie-docker (alpnie-docker)
+# alpine-docker (alpine-docker)
 
 Installs docker and docker-compose on aplpine
 
@@ -15,12 +15,16 @@ Installs docker and docker-compose on aplpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| installDockerCompose | Install Docker Compose? | boolean | true |
+| installDcokerCompose | Install Docker Compose? | boolean | true |
 
-## Docker Compose
+## Customizations
 
-By default this feature installs also Docker Compose. You can disable this by setting `installDockerCompose` to `false`.
+### VS Code Extensions
+
+- `ms-azuretools.vscode-docker`
+
+
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/cirolosapio/devcontainers-features/blob/main/src/php/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/cirolosapio/devcontainers-features/blob/main/src/alpine-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
