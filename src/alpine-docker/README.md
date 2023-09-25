@@ -1,7 +1,7 @@
 
 # alpine-docker (alpine-docker)
 
-Installs docker and docker-compose on aplpine
+Installs docker and docker-compose on alpine
 
 ## Example Usage
 
@@ -15,7 +15,7 @@ Installs docker and docker-compose on aplpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| installDockerCompose | Install Docker Compose? | boolean | true |
+| installDockerCompose | Install Docker Compose? | boolean | false |
 
 ## Customizations
 
