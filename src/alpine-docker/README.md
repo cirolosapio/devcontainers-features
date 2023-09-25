@@ -7,7 +7,7 @@ Installs docker and docker-compose on alpine
 
 ```json
 "features": {
-    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker": {}
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker:0": {}
 }
 ```
 
@@ -15,7 +15,7 @@ Installs docker and docker-compose on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| hostDockerGid | Docker group id on the host machine (retrieve with "getent group docker \| cut -d: -f3" | string | - |
+| hostDockerGid | Docker group id on the host machine (retrieve with "getent group docker \| cut -d: -f3") | string | - |
 | installDockerCompose | Install Docker Compose? | boolean | false |
 
 ## Customizations
