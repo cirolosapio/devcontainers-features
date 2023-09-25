@@ -1,7 +1,7 @@
 {
   "name": "alpine-docker",
   "id": "alpine-docker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs docker and docker-compose on aplpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-docker",
   "options": {
