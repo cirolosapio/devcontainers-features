@@ -7,7 +7,7 @@
   "options": {
     "hostDockerGid": {
       "type": "string",
-      "default": "",
+      "default": "1001",
       "description": "Docker group id on the host machine (retrieve with \"getent group docker \\| cut -d: -f3\")"
     },
     "installDockerCompose": {
