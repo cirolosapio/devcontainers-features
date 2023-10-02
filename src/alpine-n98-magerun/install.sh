@@ -11,7 +11,7 @@ wget -q https://files.magerun.net/n98-magerun2-${VERSION}.phar -O /usr/local/bin
 chmod +x /usr/local/bin/n98-magerun2.phar
 
 if [[ $INITZSH == "true" ]]; then
-  su $_CONTAINER_USER_NAME
+  su $_CONTAINER_USER
 
   # ZSH PLUGIN
   mkdir -p ~/.oh-my-zsh/custom/plugins/n98-magerun2/

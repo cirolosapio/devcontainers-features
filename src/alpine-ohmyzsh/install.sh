@@ -6,7 +6,7 @@ echo "Activating feature 'alpine-ohmyzsh'"
 
 apk --no-cache add git curl zsh
 
-su $_CONTAINER_USER_NAME
+su $_CONTAINER_USER
 
 curl -s https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | sh -s
 
