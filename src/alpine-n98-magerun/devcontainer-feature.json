@@ -1,0 +1,23 @@
+{
+  "name": "alpine-n98-magerun",
+  "id": "alpine-n98-magerun",
+  "version": "0.0.2",
+  "description": "Installs n98-magerun on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-n98-magerun",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "7.1.0",
+      "description": "Version of n98-magerun to install",
+      "proposals": [
+        "7.1.0",
+        "6.1.1"
+      ]
+    },
+    "initStarship": {
+      "type": "boolean",
+      "default": true,
+      "description": "Init zsh"
+    }
+  }
+}
