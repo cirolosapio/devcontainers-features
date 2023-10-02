@@ -11,24 +11,20 @@ wget -q https://files.magerun.net/n98-magerun2-${VERSION}.phar -O /usr/local/bin
 chmod +x /usr/local/bin/n98-magerun2.phar
 
 if [[ $INITZSH == "true" ]]; then
-  CURRENT_USER=$(awk -v val=1000 -F ":" '$3==val{print $1}' /etc/passwd)
-  echo "Acting as $CURRENT_USER"
-  su $CURRENT_USER
-
   # ZSH PLUGIN
-  mkdir -p ~/.oh-my-zsh/custom/plugins/n98-magerun2/
-  wget -q https://raw.githubusercontent.com/netz98/n98-magerun2/develop/res/autocompletion/zsh/n98-magerun2.plugin.zsh -O ~/.oh-my-zsh/custom/plugins/n98-magerun2/n98-magerun2.plugin.zsh
-  sed -i 's/^plugins=(/plugins=(\n  n98-magerun2/g' ~/.zshrc
+  mkdir -p $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/n98-magerun2/
+  wget -q https://raw.githubusercontent.com/netz98/n98-magerun2/develop/res/autocompletion/zsh/n98-magerun2.plugin.zsh -O $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/n98-magerun2/n98-magerun2.plugin.zsh
+  sed -i 's/^plugins=(/plugins=(\n  n98-magerun2/g' $_CONTAINER_USER_HOME/.zshrc
 
   # ZSH ALIAS
-  echo $'alias m=bin/magento' >> ~/.profile
-  echo $'alias n=n98-magerun2.phar' >> ~/.profile
-  echo $'alias sup="m s:up"' >> ~/.profile
-  echo $'alias sdc="m s:d:c"' >> ~/.profile
-  echo $'alias cf="n c:f"' >> ~/.profile
-  echo $'alias reindex="n i:rei"' >> ~/.profile
-  echo $'alias refresh=my/shs/refresh.sh' >> ~/.profile
-  echo $'alias catalog="n dev:urn-catalog:generate .vscode/catalog_tmp.xml"' >> ~/.profile
+  echo $'alias m=bin/magento' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias n=n98-magerun2.phar' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias sup="m s:up"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias sdc="m s:d:c"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias cf="n c:f"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias reindex="n i:rei"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias refresh=my/shs/refresh.sh' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias catalog="n dev:urn-catalog:generate .vscode/catalog_tmp.xml"' >> $_CONTAINER_USER_HOME/.zshrc
 fi
 
 echo 'Done!'
