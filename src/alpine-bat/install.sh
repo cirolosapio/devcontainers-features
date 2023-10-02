@@ -6,6 +6,8 @@ echo "Activating feature 'alpine-bat'"
 
 apk --no-cache add bat
 
-echo "alias cat='bat'" >> $_CONTAINER_USER_HOME/.profile
+if [[ $INITZSH == "true" ]]; then
+  echo "alias cat=bat" >> $_CONTAINER_USER_HOME/.zshrc
+fi
 
 echo 'Done!'

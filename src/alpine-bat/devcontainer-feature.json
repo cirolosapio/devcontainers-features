@@ -1,7 +1,14 @@
 {
   "name": "alpine-bat",
   "id": "alpine-bat",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Installs bat on alpine",
-  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-bat"
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-bat",
+  "options": {
+    "initZsh": {
+      "type": "boolean",
+      "default": true,
+      "description": "Init zsh alias"
+    }
+  }
 }
