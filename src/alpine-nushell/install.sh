@@ -12,7 +12,7 @@ wget -q https://raw.githubusercontent.com/nushell/nushell/main/crates/nu-utils/s
 
 if [[ $INITSTARSHIP == "true" ]]; then
   echo $'\nmkdir ~/.cache/starship\nstarship init nu | save -f ~/.cache/starship/init.nu' >> $_CONTAINER_USER_HOME/.config/nushell/env.nu
-  echo $'\nsource ~/.cache/starship/init.nu' >> $_CONTAINER_USER_HOME/.config/nushell/config.nu
+  echo $'\nuse ~/.cache/starship/init.nu' >> $_CONTAINER_USER_HOME/.config/nushell/config.nu
 fi
 
 echo 'Done!'
