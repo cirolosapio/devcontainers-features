@@ -3,5 +3,12 @@
   "id": "alpine-gh-copilot-cli",
   "version": "0.0.1",
   "description": "Installs Github Copilot CLI on alpine",
-  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-copilot-cli"
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-copilot-cli",
+  "options": {
+    "initZsh": {
+      "type": "boolean",
+      "default": true,
+      "description": "Init zsh"
+    }
+  }
 }
