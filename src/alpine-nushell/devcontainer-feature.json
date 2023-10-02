@@ -1,7 +1,14 @@
 {
   "name": "alpine-nushell",
   "id": "alpine-nushell",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs nushell on alpine",
-  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-nushell"
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-nushell",
+  "options": {
+    "initStarship": {
+      "type": "boolean",
+      "default": true,
+      "description": "Init starship"
+    }
+  }
 }

@@ -1,0 +1,7 @@
+{
+  "name": "alpine-nano",
+  "id": "alpine-nano",
+  "version": "0.0.1",
+  "description": "Installs nano on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-nano"
+}
