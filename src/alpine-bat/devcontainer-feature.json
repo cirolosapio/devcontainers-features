@@ -1,7 +1,7 @@
 {
   "name": "alpine-bat",
   "id": "alpine-bat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs bat on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-bat"
 }

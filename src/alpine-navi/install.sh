@@ -7,9 +7,10 @@ echo "Activating feature 'alpine-navi'"
 apk --no-cache add skim
 apk --no-cache add navi --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing
 
-# if $INITZSH is true, then add navi to zshrc
 if [[ $INITZSH == "true" ]]; then
-  echo $'\neval "$(navi widget zsh)"' >> $_CONTAINER_USER_HOME/.zshrc
+  su $_CONTAINER_USER_NAME
+
+  echo $'\neval "$(navi widget zsh)"' >> ~/.zshrc
 fi
 
 echo 'Done!'
