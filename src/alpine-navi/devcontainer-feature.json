@@ -1,0 +1,14 @@
+{
+  "name": "alpine-navi",
+  "id": "alpine-navi",
+  "version": "0.0.1",
+  "description": "Installs navi on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-navi",
+  "options": {
+    "initZsh": {
+      "type": "boolean",
+      "default": true,
+      "description": "Init zsh configs"
+    }
+  }
+}
