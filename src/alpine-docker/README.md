@@ -7,9 +7,7 @@ Installs docker and docker-compose on alpine
 
 ```json
 "features": {
-    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker:0": {
-        "hostDockerGid": 1001
-    }
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker:0": {}
 }
 ```
 
