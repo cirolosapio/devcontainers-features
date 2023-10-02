@@ -8,7 +8,7 @@
     "initZsh": {
       "type": "boolean",
       "default": true,
-      "description": "Init zsh alias"
+      "description": "Init zsh"
     }
   }
 }
