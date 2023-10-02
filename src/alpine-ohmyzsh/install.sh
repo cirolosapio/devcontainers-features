@@ -6,6 +6,7 @@ echo "Activating feature 'alpine-ohmyzsh'"
 
 apk --no-cache add git curl zsh
 curl -s https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | sh -s
+mv ~/.zshrc $_CONTAINER_USER_HOME/.zshrc
 
 git clone https://github.com/supercrabtree/k $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/k
 git clone https://github.com/zsh-users/zsh-autosuggestions $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
