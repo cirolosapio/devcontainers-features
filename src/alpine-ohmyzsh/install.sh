@@ -6,7 +6,9 @@ echo "Activating feature 'alpine-ohmyzsh'"
 
 apk --no-cache add git curl zsh
 
-su $_CONTAINER_USER
+CURRENT_USER=$(awk -v val=1000 -F ":" '$3==val{print $1}' /etc/passwd)
+echo "Acting as $CURRENT_USER"
+su $CURRENT_USER
 
 curl -s https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | sh -s
 

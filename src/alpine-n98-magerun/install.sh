@@ -11,7 +11,9 @@ wget -q https://files.magerun.net/n98-magerun2-${VERSION}.phar -O /usr/local/bin
 chmod +x /usr/local/bin/n98-magerun2.phar
 
 if [[ $INITZSH == "true" ]]; then
-  su $_CONTAINER_USER
+  CURRENT_USER=$(awk -v val=1000 -F ":" '$3==val{print $1}' /etc/passwd)
+  echo "Acting as $CURRENT_USER"
+  su $CURRENT_USER
 
   # ZSH PLUGIN
   mkdir -p ~/.oh-my-zsh/custom/plugins/n98-magerun2/
