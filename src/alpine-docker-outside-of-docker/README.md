@@ -9,9 +9,7 @@ Re-use the host docker socket, adding the Docker CLI to alpine container
 
 ```json
 "features": {
-    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker-outside-of-docker:0": {
-        "hostDockerGid": 1001
-    }
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker-outside-of-docker:0": {}
 }
 ```
 
