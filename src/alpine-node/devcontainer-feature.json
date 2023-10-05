@@ -13,7 +13,7 @@
     "pnpmVersion": {
       "type": "string",
       "default": "latest",
-      "prosals": [
+      "proposals": [
         "latest",
         "8.8.0",
         "7.5.2"
