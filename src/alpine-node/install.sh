@@ -8,8 +8,11 @@ apk --no-cache add nodejs npm
 
 if [[ $COREPACK == "true" ]]; then
   npm i -g corepack
-  corepack enable
-  corepack prepare pnpm@$PNPMVERSION --activate
+
+  if [[ $PNPMVERSION != "latest" ]]; then
+    CURRENT_USER=$(awk -v val=1000 -F ":" '$3==val{print $1}' /etc/passwd)
+    su -c "corepack prepare pnpm@$PNPMVERSION --activate" $CURRENT_USER
+  fi
 fi
 
 if [[ $ANTFUNI == "true" ]]; then
