@@ -1,7 +1,7 @@
 {
   "name": "alpine-node",
   "id": "alpine-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Installs node and npm on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-node",
   "options": {
@@ -9,6 +9,16 @@
       "type": "boolean",
       "default": true,
       "description": "Enable corepack"
+    },
+    "pnpmVersion": {
+      "type": "string",
+      "default": "latest",
+      "prosals": [
+        "latest",
+        "8.8.0",
+        "7.5.2"
+      ],
+      "description": "Specify pnpm version"
     },
     "antfuNi": {
       "type": "boolean",

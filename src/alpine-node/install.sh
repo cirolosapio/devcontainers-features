@@ -9,6 +9,7 @@ apk --no-cache add nodejs npm
 if [[ $COREPACK == "true" ]]; then
   npm i -g corepack
   corepack enable
+  corepack prepare pnpm@$PNPMVERSION --activate
 fi
 
 if [[ $ANTFUNI == "true" ]]; then
