@@ -17,8 +17,7 @@ Installs node and npm on alpine
 |-----|-----|-----|-----|
 | corepack | Enable corepack | boolean | true |
 | pnpmVersion | Specify pnpm version | string | latest |
-| antfuNi | Install @antfu/ni globally | boolean | true |
-| tsNode | Install ts-node | boolean | true |
+| globalPackages | List of global packages to install | string | - |
 
 
 
