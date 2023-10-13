@@ -4,7 +4,7 @@ set -e
 
 echo "Activating feature 'alpine-n98-magerun2'"
 
-VERSION="${VERSION:-7.1.0}"
+VERSION="${VERSION:-7.2.0}"
 
 wget -q https://files.magerun.net/n98-magerun2-${VERSION}.phar -O /usr/local/bin/n98-magerun2.phar
 # shasum -a256 n98-magerun2.phar
