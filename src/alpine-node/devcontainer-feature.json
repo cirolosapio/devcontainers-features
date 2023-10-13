@@ -1,7 +1,7 @@
 {
   "name": "alpine-node",
   "id": "alpine-node",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Installs node and npm on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-node",
   "options": {
@@ -20,15 +20,10 @@
       ],
       "description": "Specify pnpm version"
     },
-    "antfuNi": {
-      "type": "boolean",
-      "default": true,
-      "description": "Install @antfu/ni globally"
-    },
-    "tsNode": {
-      "type": "boolean",
-      "default": true,
-      "description": "Install ts-node"
+    "globalPackages": {
+      "type": "string",
+      "default": "",
+      "description": "List of global packages to install"
     }
   }
 }

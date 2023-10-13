@@ -15,12 +15,8 @@ if [[ $COREPACK == "true" ]]; then
   fi
 fi
 
-if [[ $ANTFUNI == "true" ]]; then
-  npm i -g @antfu/ni
-fi
-
-if [[ $TSNODE == "true" ]]; then
-  npm install -g typescript ts-node
+if [[ $GLOBALPACKAGES != "" ]]; then
+  npm i -g $GLOBALPACKAGES
 fi
 
 echo 'Done!'
