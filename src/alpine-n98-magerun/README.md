@@ -15,7 +15,7 @@ Installs n98-magerun on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of n98-magerun to install | string | 7.1.0 |
+| version | Version of n98-magerun to install | string | 7.2.0 |
 | initZsh | Init zsh | boolean | true |
 
 
