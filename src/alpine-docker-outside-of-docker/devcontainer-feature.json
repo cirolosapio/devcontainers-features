@@ -11,7 +11,7 @@
     "hostDockerGid": {
       "type": "string",
       "default": "1001",
-      "description": "Docker group id on the host machine (retrieve with \"getent group docker \\| cut -d: -f3\")"
+      "description": "Docker group id on the host machine (retrieve with \"getent group docker \\| cut -d: -f3\"). Required if remote user is not root"
     },
     "installDockerCompose": {
       "type": "boolean",
