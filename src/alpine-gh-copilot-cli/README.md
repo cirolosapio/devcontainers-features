@@ -15,7 +15,7 @@ Installs Github Copilot CLI on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| initZsh | Init zsh | boolean | true |
+| initAlias | Setup alias convenience commands | boolean | true |
 
 
 
