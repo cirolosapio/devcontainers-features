@@ -1,7 +1,7 @@
 {
   "name": "alpine-gh-copilot-cli",
   "id": "alpine-gh-copilot-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs Github Copilot CLI on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-copilot-cli",
   "options": {
@@ -9,6 +9,14 @@
       "type": "boolean",
       "default": true,
       "description": "Setup alias convenience commands"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot-chat",
+        "GitHub.copilot"
+      ]
     }
   }
 }
