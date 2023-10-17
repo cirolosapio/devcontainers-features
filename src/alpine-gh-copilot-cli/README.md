@@ -17,6 +17,13 @@ Installs Github Copilot CLI on alpine
 |-----|-----|-----|-----|
 | initAlias | Setup alias convenience commands | boolean | true |
 
+## Customizations
+
+### VS Code Extensions
+
+- `GitHub.copilot-chat`
+- `GitHub.copilot`
+
 
 
 ---
