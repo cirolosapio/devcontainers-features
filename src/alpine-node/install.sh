@@ -15,7 +15,7 @@ if [[ $COREPACK == "true" ]]; then
   fi
 fi
 
-if [[ $GLOBALPACKAGES != "" ]]; then
+if [[ -n "$GLOBALPACKAGES" ]]; then
   npm i -g $GLOBALPACKAGES
 fi
 
