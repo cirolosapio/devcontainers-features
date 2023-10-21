@@ -1,9 +1,12 @@
 {
   "name": "alpine-ohmyzsh",
   "id": "alpine-ohmyzsh",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Installs ohmyzsh on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ohmyzsh",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-starship"
+  ],
   "options": {
     "initStarship": {
       "type": "boolean",
