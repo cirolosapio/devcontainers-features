@@ -17,7 +17,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $_CONTAINER_USER_HOME
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 sed -i 's/plugins=(git)/plugins=(\n  git\n  zsh-autosuggestions\n  zsh-syntax-highlighting\n)/' $_CONTAINER_USER_HOME/.zshrc
 
-if [[ $PLUGINS == *"autojump"* ]]; then
+if echo "$PLUGINS" | grep -w -q "autojump"; then
   git clone https://github.com/wting/autojump $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/autojump
   apk --no-cache add python3
   su -c "cd $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/autojump/ && SHELL=zsh && ./install.py" $CURRENT_USER
@@ -25,11 +25,11 @@ if [[ $PLUGINS == *"autojump"* ]]; then
   echo $'\nautoload -U compinit && compinit -u' >> $_CONTAINER_USER_HOME/.zshrc
 fi
 
-if [[ $PLUGINS == *"alias-tips"* ]]; then
+if echo "$PLUGINS" | grep -w -q "alias-tips"; then
   git clone https://github.com/djui/alias-tips $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/alias-tips
 fi
 
-if [[ $PLUGINS == *"zsh-interactive-cd"* ]]; then
+if echo "$PLUGINS" | grep -w -q "zsh-interactive-cd"; then
   apk --no-cache add fzf
 fi
 
