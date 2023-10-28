@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Activating feature 'alpine-bottom'"
+echo "Activating feature 'alpine-broot'"
 
 apk --no-cache add broot
 
