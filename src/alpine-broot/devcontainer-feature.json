@@ -1,0 +1,14 @@
+{
+  "name": "alpine-bottom",
+  "id": "alpine-bottom",
+  "version": "0.0.2",
+  "description": "Installs bottom on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-bottom",
+  "options": {
+    "initZsh": {
+      "type": "boolean",
+      "default": true,
+      "description": "Init zsh"
+    }
+  }
+}
