@@ -1,13 +1,18 @@
 {
   "name": "alpine-ohmyzsh",
   "id": "alpine-ohmyzsh",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Installs ohmyzsh on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ohmyzsh",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-starship"
   ],
   "options": {
+    "plugins": {
+      "type": "string",
+      "default": "autojump alias-tips dirhistory zsh-interactive-cd",
+      "description": "OhMyZsh plugins to enable (git zsh-autosuggestions zsh-syntax-highlighting are always installed)"
+    },
     "initStarship": {
       "type": "boolean",
       "default": true,
