@@ -1,13 +1,13 @@
 
-# alpine-broot (alpine-broot)
+# alpine-bottom (alpine-bottom)
 
-Installs broot on alpine
+Installs bottom on alpine
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/cirolosapio/devcontainers-features/alpine-broot:0": {}
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-bottom:0": {}
 }
 ```
 
