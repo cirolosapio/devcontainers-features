@@ -15,7 +15,7 @@ Installs ohmyzsh on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| plugins | OhMyZsh plugins to enable (git zsh-autosuggestions zsh-syntax-highlighting are always installed) | string | autojump alias-tips dirhistory zsh-interactive-cd |
+| plugins | OhMyZsh plugins to enable (git zsh-autosuggestions zsh-syntax-highlighting are always installed) | string | autojump alias-tips zsh-interactive-cd |
 | initStarship | Init starship | boolean | true |
 
 
