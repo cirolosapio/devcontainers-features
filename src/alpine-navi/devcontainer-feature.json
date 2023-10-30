@@ -1,9 +1,12 @@
 {
   "name": "alpine-navi",
   "id": "alpine-navi",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Installs navi on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-navi",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ],
   "options": {
     "initZsh": {
       "type": "boolean",

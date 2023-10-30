@@ -1,9 +1,12 @@
 {
   "name": "alpine-bat",
   "id": "alpine-bat",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Installs bat on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-bat",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ],
   "options": {
     "initZsh": {
       "type": "boolean",

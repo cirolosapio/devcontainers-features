@@ -1,9 +1,12 @@
 {
   "name": "alpine-broot",
   "id": "alpine-broot",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs broot on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-broot",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ],
   "options": {
     "initZsh": {
       "type": "boolean",
