@@ -1,7 +1,14 @@
 {
   "name": "alpine-ctop",
   "id": "alpine-ctop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs ctop on alpine",
-  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ctop"
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ctop",
+  "mounts": [
+    {
+      "source": "/var/run/docker.sock",
+      "target": "/var/run/docker.sock",
+      "type": "bind"
+    }
+  ]
 }
