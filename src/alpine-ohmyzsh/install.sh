@@ -26,6 +26,7 @@ if echo "$PLUGINS" | grep -w -q "autojump"; then
 fi
 
 if echo "$PLUGINS" | grep -w -q "alias-tips"; then
+  apk --no-cache add python3
   git clone https://github.com/djui/alias-tips $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/alias-tips
 fi
 
