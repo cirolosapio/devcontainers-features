@@ -1,10 +1,15 @@
 {
   "name": "alpine-node",
   "id": "alpine-node",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Installs node and npm on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-node",
   "options": {
+    "lts": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install LTS node version"
+    },
     "corepack": {
       "type": "boolean",
       "default": true,

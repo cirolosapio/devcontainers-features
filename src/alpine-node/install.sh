@@ -4,7 +4,11 @@ set -e
 
 echo "Activating feature 'alpine-node'"
 
-apk --no-cache add nodejs npm
+if [[ $LTS == "true" ]]; then
+  apk add --no-cache nodejs-lts npm
+else
+  apk add --no-cache nodejs npm
+fi
 
 if [[ $COREPACK == "true" ]]; then
   npm i -g corepack
