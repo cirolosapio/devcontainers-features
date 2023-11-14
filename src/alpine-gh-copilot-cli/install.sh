@@ -4,7 +4,7 @@ set -e
 
 echo "Activating feature 'alpine-gh-copilot-cli'"
 
-apk --no-cache add npm
+apk --no-cache add npm --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main
 npm i -g @githubnext/github-copilot-cli
 
 if [[ $INITALIAS == "true" ]]; then
