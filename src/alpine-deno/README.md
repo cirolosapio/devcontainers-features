@@ -17,6 +17,12 @@ Installs deno on alpine
 |-----|-----|-----|-----|
 | initZsh | Init zsh | boolean | true |
 
+## Customizations
+
+### VS Code Extensions
+
+- `denoland.vscode-deno`
+
 
 
 ---
