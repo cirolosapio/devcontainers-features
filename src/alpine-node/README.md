@@ -15,7 +15,6 @@ Installs node and npm on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| lts | Install LTS node version | boolean | true |
 | corepack | Enable corepack | boolean | true |
 | pnpmVersion | Specify pnpm version | string | latest |
 | globalPackages | List of global packages to install | string | - |
