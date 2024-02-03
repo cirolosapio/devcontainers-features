@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Activating feature 'alpine-docker'"
+echo "Activating feature 'alpine-docker-outside-of-docker'"
 
 apk add --no-cache docker
 
