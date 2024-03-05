@@ -1,7 +1,7 @@
 {
   "name": "alpine-php-intl",
   "id": "alpine-php-intl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs intl for php on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-intl"
 }
