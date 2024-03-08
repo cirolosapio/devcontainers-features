@@ -24,6 +24,7 @@ if [[ $INITZSH == "true" ]]; then
   echo $'alias ssd="n se:s:d"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias cac="n ca:c"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias caf="n c:f"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias cf="n c:f"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias reindex="n i:rei"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias catalog="n dev:urn-catalog:generate .vscode/catalog_tmp.xml"' >> $_CONTAINER_USER_HOME/.zshrc
 fi
