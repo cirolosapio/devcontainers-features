@@ -21,9 +21,10 @@ if [[ $INITZSH == "true" ]]; then
   echo $'alias n=n98-magerun2.phar' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias sup="m s:up"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias sdc="m s:d:c"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias ssd="n se:s:d"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias cc="n ca:c"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias cf="n c:f"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias reindex="n i:rei"' >> $_CONTAINER_USER_HOME/.zshrc
-  echo $'alias refresh=my/shs/refresh.sh' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias catalog="n dev:urn-catalog:generate .vscode/catalog_tmp.xml"' >> $_CONTAINER_USER_HOME/.zshrc
 fi
 
