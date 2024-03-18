@@ -1,7 +1,7 @@
 {
   "name": "alpine-mage2postman",
   "id": "alpine-mage2postman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs mage2postman on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-mage2postman"
 }
