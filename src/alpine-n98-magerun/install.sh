@@ -22,7 +22,7 @@ if [[ $INITZSH == "true" ]]; then
   echo $'alias sup="m s:up"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias sdc="m s:d:c"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias ssd="n se:s:d"' >> $_CONTAINER_USER_HOME/.zshrc
-  echo $'alias cac="n ca:c"' >> $_CONTAINER_USER_HOME/.zshrc
+  echo $'alias cac="n ca:cl"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias caf="n c:f"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias cf="n c:f"' >> $_CONTAINER_USER_HOME/.zshrc
   echo $'alias reindex="n i:rei"' >> $_CONTAINER_USER_HOME/.zshrc
