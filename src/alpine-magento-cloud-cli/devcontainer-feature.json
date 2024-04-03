@@ -1,0 +1,14 @@
+{
+  "name": "alpine-magento-cloud-cli",
+  "id": "alpine-magento-cloud-cli",
+  "version": "0.0.1",
+  "description": "Installs magento-cloud-cli on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-magento-cloud-cli",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ],
+  "dependsOn": {
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-php-pcntl": {},
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-php-posix": {}
+  }
+}
