@@ -1,7 +1,7 @@
 {
   "name": "alpine-gh-copilot-cli",
   "id": "alpine-gh-copilot-cli",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Installs Github Copilot CLI on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-copilot-cli",
   "installsAfter": [

@@ -9,10 +9,6 @@ apk --no-cache add git zsh
 CURRENT_USER=$(awk -v val=1000 -F ":" '$3==val{print $1}' /etc/passwd)
 su -c "wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh | sh -s" $CURRENT_USER
 
-if [[ $CURRENT_USER != "root" ]] && [[ $_CONTAINER_USER_HOME == "/root" ]]; then
-  _CONTAINER_USER_HOME="/home/$CURRENT_USER"
-fi
-
 git clone https://github.com/zsh-users/zsh-autosuggestions $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 sed -i 's/plugins=(git)/plugins=(\n  git\n  zsh-autosuggestions\n  zsh-syntax-highlighting\n)/' $_CONTAINER_USER_HOME/.zshrc
