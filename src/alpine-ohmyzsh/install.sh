@@ -42,4 +42,6 @@ if [[ $INITSTARSHIP == "true" ]]; then
   echo $'\neval "$(starship init zsh)"' >> $_CONTAINER_USER_HOME/.zshrc
 fi
 
+sed -i "s|:/bin/ash|:/bin/zsh|g" /etc/passwd
+
 echo 'Done!'
