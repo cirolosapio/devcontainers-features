@@ -12,9 +12,9 @@ if [[ $INITALIAS == "true" ]]; then
   echo "CURRENT_USER is $CURRENT_USER"
   
   if [[ -z $CURRENT_USER ]]; then
-    echo 'eval "$(github-copilot-cli alias -- /bin/zsh)"' >> $_CONTAINER_USER_HOME/.zshrc
+    echo 'eval "$(github-copilot-cli alias -- "$0")"' >> $_CONTAINER_USER_HOME/.zshrc
   else 
-    su -c "echo 'eval \"$(github-copilot-cli alias -- /bin/zsh)\"' >> $_CONTAINER_USER_HOME/.zshrc" $CURRENT_USER
+    su -c `echo 'eval "$(github-copilot-cli alias -- "$0")"' >> $_CONTAINER_USER_HOME/.zshrc` $CURRENT_USER
   fi
 fi
 
