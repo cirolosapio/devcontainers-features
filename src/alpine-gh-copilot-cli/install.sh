@@ -10,11 +10,13 @@ npm i -g @githubnext/github-copilot-cli
 if [[ $INITALIAS == "true" ]]; then
   CURRENT_USER=$(awk -v val=1000 -F ":" '$3==val{print $1}' /etc/passwd)
   echo "CURRENT_USER is $CURRENT_USER"
-  
+  echo "_CONTAINER_USER_HOME is $_CONTAINER_USER_HOME"
+
   if [[ -z $CURRENT_USER ]]; then
     echo 'eval "$(github-copilot-cli alias -- "$0")"' >> $_CONTAINER_USER_HOME/.zshrc
   else 
-    su -c `echo 'eval "$(github-copilot-cli alias -- "$0")"' >> $_CONTAINER_USER_HOME/.zshrc` $CURRENT_USER
+    CMD="echo 'eval \"\$(github-copilot-cli alias -- \"\$0\")\"' >> \$_CONTAINER_USER_HOME/.zshrc"
+    su -c "$CMD" $CURRENT_USER
   fi
 fi
 
