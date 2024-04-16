@@ -1,0 +1,32 @@
+# Devcontainer Alpine Features
+
+- alpine-aws-cli
+- alpine-bat
+- alpine-bottom
+- alpine-broot
+- alpine-ctop
+- alpine-curl
+- alpine-deno
+- alpine-docker-outside-of-docker
+- alpine-gh-cli
+- alpine-gh-copilot-cli
+- alpine-git
+- alpine-mage2postman
+- alpine-magento-cloud-cli
+- alpine-n98-magerun
+- alpine-nano
+- alpine-navi
+- alpine-node
+- alpine-nushell
+- alpine-ohmyzsh
+- alpine-openssh
+- alpine-patch
+- alpine-pgsql-client
+- alpine-php-composer
+- alpine-php-gd
+- alpine-php-intl
+- alpine-php-pcntl
+- alpine-php-pgsql
+- alpine-php-posix
+- alpine-php-xdebug
+- alpine-starship
