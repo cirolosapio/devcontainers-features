@@ -11,11 +11,7 @@ Installs navi on alpine
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| initZsh | Init zsh configs | boolean | true |
 
 
 

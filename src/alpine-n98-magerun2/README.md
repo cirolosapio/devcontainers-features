@@ -1,3 +1,5 @@
+### **IMPORTANT NOTE**
+- **Ids used to publish this Feature in the past - 'alpine-n98-magerun'**
 
 # alpine-n98-magerun2 (alpine-n98-magerun2)
 
@@ -16,7 +18,6 @@ Installs n98-magerun2 on alpine
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | version | Version of n98-magerun2 to install | string | 7.3.1 |
-| initZsh | Init zsh | boolean | true |
 
 
 

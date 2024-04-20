@@ -11,11 +11,7 @@ Installs bottom on alpine
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| initZsh | Init zsh | boolean | true |
 
 
 
