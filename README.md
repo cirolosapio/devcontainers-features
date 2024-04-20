@@ -29,4 +29,5 @@
 - [alpine-php-pgsql](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-pgsql)
 - [alpine-php-posix](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-posix)
 - [alpine-php-xdebug](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-xdebug)
+- [alpine-phpstorm-libs](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-phpstorm-libs)
 - [alpine-starship](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-starship)
