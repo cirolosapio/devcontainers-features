@@ -11,11 +11,7 @@ Installs deno on alpine
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| initZsh | Init zsh | boolean | true |
 
 ## Customizations
 
