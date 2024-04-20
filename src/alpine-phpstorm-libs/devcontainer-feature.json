@@ -1,0 +1,10 @@
+{
+  "name": "alpine-phpstorm-libs",
+  "id": "alpine-phpstorm-libs",
+  "version": "0.0.1",
+  "description": "Installs phpstorm required libs on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-phpstorm-libs",
+  "dependsOn": {
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-openssh": {}
+  }
+}
