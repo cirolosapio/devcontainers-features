@@ -6,7 +6,7 @@ echo "Activating feature 'alpine-bottom'"
 
 apk --no-cache add bottom
 
-if [[ $INITZSH == "true" ]]; then
+if command -v zsh &> /dev/null; then
   apk --no-cache add bottom-zsh-completion
 fi
 

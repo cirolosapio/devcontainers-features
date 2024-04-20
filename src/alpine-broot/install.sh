@@ -6,7 +6,7 @@ echo "Activating feature 'alpine-broot'"
 
 apk --no-cache add broot
 
-if [[ $INITZSH == "true" ]]; then
+if command -v zsh &> /dev/null; then
   apk --no-cache add broot-zsh-completion
 fi
 

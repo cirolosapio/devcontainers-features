@@ -1,19 +1,12 @@
 {
   "name": "alpine-deno",
   "id": "alpine-deno",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Installs deno on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-deno",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
   ],
-  "options": {
-    "initZsh": {
-      "type": "boolean",
-      "default": true,
-      "description": "Init zsh"
-    }
-  },
   "customizations": {
     "vscode": {
       "extensions": [

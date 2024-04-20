@@ -31,7 +31,7 @@ if [[ $INSTALLDOCKERCOMPOSE == "true" ]]; then
     apk add --no-cache docker-compose
 fi
 
-if [[ $INITZSH == "true" ]]; then
+if command -v zsh &> /dev/null; then
     apk --no-cache add docker-zsh-completion
 fi
 

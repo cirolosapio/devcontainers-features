@@ -10,7 +10,7 @@ wget -q https://files.magerun.net/n98-magerun2-${VERSION}.phar -O /usr/local/bin
 # shasum -a256 n98-magerun2.phar
 chmod +x /usr/local/bin/n98-magerun2.phar
 
-if [[ $INITZSH == "true" ]]; then
+if command -v zsh &> /dev/null; then
   # ZSH PLUGIN
   mkdir -p $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/n98-magerun2/
   wget -q https://raw.githubusercontent.com/netz98/n98-magerun2/develop/res/autocompletion/zsh/n98-magerun2.plugin.zsh -O $_CONTAINER_USER_HOME/.oh-my-zsh/custom/plugins/n98-magerun2/n98-magerun2.plugin.zsh

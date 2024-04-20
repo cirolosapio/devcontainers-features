@@ -1,17 +1,10 @@
 {
   "name": "alpine-aws-cli",
   "id": "alpine-aws-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs aws-cli on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-aws-cli",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
-  ],
-  "options": {
-    "initZsh": {
-      "type": "boolean",
-      "default": true,
-      "description": "Init zsh"
-    }
-  }
+  ]
 }

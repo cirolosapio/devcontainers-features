@@ -13,7 +13,7 @@
 - [alpine-git](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-git)
 - [alpine-mage2postman](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-mage2postman)
 - [alpine-magento-cloud-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-magento-cloud-cli)
-- [alpine-n98-magerun](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-n98-magerun)
+- [alpine-n98-magerun2](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-n98-magerun2)
 - [alpine-nano](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-nano)
 - [alpine-navi](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-navi)
 - [alpine-node](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-node)
