@@ -4,6 +4,11 @@ set -e
 
 echo "Activating feature 'alpine-docker-outside-of-docker'"
 
+# If init file already exists, exit
+if [ -f "/usr/local/share/docker-init.sh" ]; then
+    exit 0
+fi
+
 apk add --no-cache docker
 
 CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
@@ -19,10 +24,6 @@ else
     tee /usr/local/share/docker-init.sh > /dev/null \
 << EOF
 #!/bin/sh
-#-------------------------------------------------------------------------------------------------------------
-# Copyright (c) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT License. See https://go.microsoft.com/fwlink/?linkid=2090316 for license information.
-#-------------------------------------------------------------------------------------------------------------
 
 set -e
 
