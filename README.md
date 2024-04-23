@@ -1,6 +1,7 @@
 # Devcontainer Alpine Features
 
 - [alpine-aws-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-aws-cli)
+- [alpine-bash](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-bash)
 - [alpine-bat](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-bat)
 - [alpine-bottom](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-bottom)
 - [alpine-broot](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-broot)

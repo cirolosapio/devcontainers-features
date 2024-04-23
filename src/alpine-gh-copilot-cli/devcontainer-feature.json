@@ -1,19 +1,13 @@
 {
   "name": "alpine-gh-copilot-cli",
   "id": "alpine-gh-copilot-cli",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Installs Github Copilot CLI on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-copilot-cli",
   "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-bash",
     "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
   ],
-  "options": {
-    "initAlias": {
-      "type": "boolean",
-      "default": true,
-      "description": "Setup alias convenience commands"
-    }
-  },
   "customizations": {
     "vscode": {
       "extensions": [
