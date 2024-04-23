@@ -11,11 +11,7 @@ Installs Github Copilot CLI on alpine
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| initAlias | Setup alias convenience commands | boolean | true |
 
 ## Customizations
 
