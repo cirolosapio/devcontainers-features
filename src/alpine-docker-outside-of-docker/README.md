@@ -17,7 +17,6 @@ Re-use the host docker socket, adding the Docker CLI to alpine container
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| hostDockerGid | Docker group id on the host machine (retrieve with "getent group docker \| cut -d: -f3"). Required if remote user is not root | string | 1001 |
 | installDockerCompose | Install Docker Compose? | boolean | false |
 
 ## Customizations

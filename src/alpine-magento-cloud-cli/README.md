@@ -11,7 +11,11 @@ Installs magento-cloud-cli on alpine
 }
 ```
 
+## Options
 
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| shellType | The shell type to use | string | zsh |
 
 
 
