@@ -1,28 +1,24 @@
 {
   "name": "alpine-docker-outside-of-docker",
   "id": "alpine-docker-outside-of-docker",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Re-use the host docker socket, adding the Docker CLI to alpine container",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-docker-outside-of-docker",
   "legacyIds": [
     "alpine-docker"
   ],
   "options": {
-    "hostDockerGid": {
-      "type": "string",
-      "default": "1001",
-      "description": "Docker group id on the host machine (retrieve with \"getent group docker \\| cut -d: -f3\"). Required if remote user is not root"
-    },
     "installDockerCompose": {
       "type": "boolean",
       "default": false,
       "description": "Install Docker Compose?"
     }
   },
+  "entrypoint": "/usr/local/share/docker-init.sh",
   "mounts": [
     {
       "source": "/var/run/docker.sock",
-      "target": "/var/run/docker.sock",
+      "target": "/var/run/docker-host.sock",
       "type": "bind"
     }
   ],

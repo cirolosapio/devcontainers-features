@@ -10,7 +10,7 @@ if [[ $COREPACK == "true" ]]; then
   npm i -g corepack
 
   if [[ $PNPMVERSION != "latest" ]]; then
-    CURRENT_USER=$(awk -v val=1000 -F ":" '$3==val{print $1}' /etc/passwd)
+    CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
     su -c "corepack prepare pnpm@$PNPMVERSION --activate" $CURRENT_USER
   fi
 fi

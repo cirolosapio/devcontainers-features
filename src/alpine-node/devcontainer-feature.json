@@ -1,7 +1,7 @@
 {
   "name": "alpine-node",
   "id": "alpine-node",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Installs node and npm on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-node",
   "options": {

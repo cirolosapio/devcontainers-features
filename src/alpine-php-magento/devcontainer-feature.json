@@ -1,0 +1,11 @@
+{
+  "name": "alpine-php-magento",
+  "id": "alpine-php-magento",
+  "version": "0.0.1",
+  "description": "Installs magento libs for php on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-magento",
+  "dependsOn": {
+    "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-mysql": {},
+    "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-zip": {}
+  }
+}
