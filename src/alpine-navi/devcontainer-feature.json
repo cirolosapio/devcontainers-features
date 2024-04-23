@@ -1,10 +1,11 @@
 {
   "name": "alpine-navi",
   "id": "alpine-navi",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Installs navi on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-navi",
   "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-user",
     "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
   ]
 }
