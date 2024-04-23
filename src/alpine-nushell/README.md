@@ -11,11 +11,7 @@ Installs nushell on alpine
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| initStarship | Init starship | boolean | true |
 
 
 
