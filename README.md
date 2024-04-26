@@ -23,6 +23,7 @@
 - [alpine-patch](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-patch)
 - [alpine-pgsql-client](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-pgsql-client)
 - [alpine-php-composer](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-composer)
+- [alpine-php-ftp](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-ftp)
 - [alpine-php-gd](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-gd)
 - [alpine-php-intl](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-intl)
 - [alpine-php-magento](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-magento)
