@@ -10,7 +10,6 @@
 - [alpine-deno](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-deno)
 - [alpine-docker-outside-of-docker](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-docker-outside-of-docker)
 - [alpine-gh-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gh-cli)
-- [alpine-gh-copilot-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gh-copilot-cli)
 - [alpine-git](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-git)
 - [alpine-mage2postman](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-mage2postman)
 - [alpine-magento-cloud-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-magento-cloud-cli)

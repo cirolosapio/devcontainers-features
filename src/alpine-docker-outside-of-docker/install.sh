@@ -9,7 +9,7 @@ if [ -f "/usr/local/share/docker-init.sh" ]; then
     exit 0
 fi
 
-apk add --no-cache docker
+apk --no-cache add docker
 
 CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
 
@@ -17,7 +17,7 @@ if [[ -z $CURRENT_USER ]]; then
     ln -s /var/run/docker-host.sock /var/run/docker.sock
     echo -e '#!/bin/sh\nexec "$@"' > /usr/local/share/docker-init.sh
 else
-    apk add --no-cache socat sudo
+    apk --no-cache add socat sudo
     echo "$CURRENT_USER ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/$CURRENT_USER
     chmod 0440 /etc/sudoers.d/$CURRENT_USER
 
@@ -47,7 +47,7 @@ fi
 chmod +x /usr/local/share/docker-init.sh
 
 if [[ $INSTALLDOCKERCOMPOSE == "true" ]]; then
-    apk add --no-cache docker-compose
+    apk --no-cache add docker-compose
 fi
 
 if command -v zsh &> /dev/null; then
