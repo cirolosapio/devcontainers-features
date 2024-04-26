@@ -15,7 +15,7 @@ CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
 
 if [[ -z $CURRENT_USER ]]; then
     ln -s /var/run/docker-host.sock /var/run/docker.sock
-    echo -e '#!/bin/sh\nexec "$@"' > /usr/local/share/docker-init.sh
+    touch /usr/local/share/docker-init.sh
 else
     apk --no-cache add socat sudo
     echo "$CURRENT_USER ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/$CURRENT_USER
@@ -34,11 +34,6 @@ if [ ! -f "\${SOCAT_PID}" ] || ! ps -p \$(cat \${SOCAT_PID}) > /dev/null; then
     rm -rf /var/run/docker.sock
     sudo socat UNIX-LISTEN:/var/run/docker.sock,fork,mode=660,user=$CURRENT_USER,backlog=128 UNIX-CONNECT:/var/run/docker-host.sock 2>&1
 fi
-
-# Execute whatever commands were passed in (if any). This allows us
-# to set this script to ENTRYPOINT while still executing the default CMD.
-set +e
-exec "\$@"
 EOF
 
     chown ${CURRENT_USER}:root /usr/local/share/docker-init.sh
