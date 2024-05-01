@@ -1,7 +1,7 @@
 {
   "name": "alpine-sentry-cli",
   "id": "alpine-sentry-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs sentry cli on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-sentry-cli",
   "dependsOn": {
