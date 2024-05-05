@@ -2,7 +2,7 @@
 
 set -e
 
-echo "Activating feature 'alpine-ftp-pcntl'"
+echo "Activating feature 'alpine-php-ftp'"
 
 docker-php-ext-install ftp
 

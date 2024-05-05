@@ -30,9 +30,9 @@ set -e
 SOCAT_PATH_BASE=/tmp/vscr-docker-from-docker
 SOCAT_PID=\${SOCAT_PATH_BASE}.pid
 
-if [ ! -f "\${SOCAT_PID}" ] || ! ps -p \$(cat \${SOCAT_PID}) > /dev/null; then
+if [ ! -f "\${SOCAT_PID}" ] || ! kill -0 \$(cat \${SOCAT_PID}) 2>/dev/null; then
     rm -rf /var/run/docker.sock
-    sudo socat UNIX-LISTEN:/var/run/docker.sock,fork,mode=660,user=$CURRENT_USER,backlog=128 UNIX-CONNECT:/var/run/docker-host.sock 2>&1
+    sudo socat UNIX-LISTEN:/var/run/docker.sock,fork,mode=660,user=$CURRENT_USER,backlog=128 UNIX-CONNECT:/var/run/docker-host.sock 2>&1 > /dev/null & echo $! > \${SOCAT_PID}
 fi
 EOF
 
