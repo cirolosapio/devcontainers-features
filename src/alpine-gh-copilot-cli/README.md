@@ -1,3 +1,5 @@
+### **IMPORTANT NOTE**
+- **This Feature is deprecated, and will no longer receive any further updates/support.**
 
 # alpine-gh-copilot-cli (alpine-gh-copilot-cli)
 
