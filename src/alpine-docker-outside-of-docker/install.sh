@@ -15,7 +15,7 @@ CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
 
 if [[ -z $CURRENT_USER ]]; then
     ln -s /var/run/docker-host.sock /var/run/docker.sock
-    touch /usr/local/share/docker-init.sh
+    echo -e '#!/bin/sh\nexec "$@"' > /usr/local/share/docker-init.sh
 else
     apk --no-cache add socat sudo
     echo "$CURRENT_USER ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/$CURRENT_USER
@@ -30,10 +30,12 @@ set -e
 SOCAT_PATH_BASE=/tmp/vscr-docker-from-docker
 SOCAT_PID=\${SOCAT_PATH_BASE}.pid
 
-if [ ! -f "\${SOCAT_PID}" ] || ! kill -0 \$(cat \${SOCAT_PID}) 2>/dev/null; then
-    rm -rf /var/run/docker.sock
-    sudo socat UNIX-LISTEN:/var/run/docker.sock,fork,mode=660,user=$CURRENT_USER,backlog=128 UNIX-CONNECT:/var/run/docker-host.sock 2>&1 > /dev/null & echo $! > \${SOCAT_PID}
+if [ ! -f "\$SOCAT_PID" ] || ! kill -0 \$(cat \$SOCAT_PID) 2>/dev/null; then
+    (sudo socat UNIX-LISTEN:/var/run/docker.sock,fork,mode=660,user=$CURRENT_USER,backlog=128 UNIX-CONNECT:/var/run/docker-host.sock 2>&1 & echo \$! | tee \$SOCAT_PID > /dev/null)
 fi
+
+set +e
+exec "\$@"
 EOF
 
     chown ${CURRENT_USER}:root /usr/local/share/docker-init.sh
