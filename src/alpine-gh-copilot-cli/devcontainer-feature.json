@@ -1,0 +1,20 @@
+{
+  "name": "alpine-gh-copilot-cli",
+  "id": "alpine-gh-copilot-cli",
+  "version": "0.0.14",
+  "description": "Installs Github Copilot CLI on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-copilot-cli",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-user",
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-bash",
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot-chat",
+        "GitHub.copilot"
+      ]
+    }
+  }
+}
