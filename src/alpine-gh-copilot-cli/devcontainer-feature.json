@@ -4,6 +4,7 @@
   "version": "0.0.14",
   "description": "Installs Github Copilot CLI on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-copilot-cli",
+  "deprecated": true,
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-user",
     "ghcr.io/cirolosapio/devcontainers-features/alpine-bash",
