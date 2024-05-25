@@ -29,6 +29,7 @@
 - [alpine-php-gd](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-gd)
 - [alpine-php-intl](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-intl)
 - [alpine-php-magento](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-magento)
+- [alpine-php-mariadb](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-mariadb)
 - [alpine-php-mssql](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-mssql)
 - [alpine-php-mysql](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-mysql)
 - [alpine-php-pcntl](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-pcntl)
