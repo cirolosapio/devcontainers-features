@@ -1,7 +1,7 @@
 {
   "name": "alpine-docker-outside-of-docker",
   "id": "alpine-docker-outside-of-docker",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Re-use the host docker socket, adding the Docker CLI to alpine container",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-docker-outside-of-docker",
   "installsAfter": [
@@ -13,7 +13,7 @@
   "options": {
     "installDockerCompose": {
       "type": "boolean",
-      "default": false,
+      "default": true,
       "description": "Install Docker Compose?"
     }
   },
