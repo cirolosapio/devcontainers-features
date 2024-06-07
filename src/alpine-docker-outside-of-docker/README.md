@@ -17,7 +17,7 @@ Re-use the host docker socket, adding the Docker CLI to alpine container
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| installDockerCompose | Install Docker Compose? | boolean | false |
+| installDockerCompose | Install Docker Compose? | boolean | true |
 
 ## Customizations
 
