@@ -11,6 +11,7 @@
 - [alpine-docker-outside-of-docker](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-docker-outside-of-docker)
 - [alpine-gh-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gh-cli)
 - [alpine-git](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-git)
+- [alpine-gpg](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gpg)
 - [alpine-jq](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-jq)
 - [alpine-mage2postman](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-mage2postman)
 - [alpine-magento-cloud-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-magento-cloud-cli)
