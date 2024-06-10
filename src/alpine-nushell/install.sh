@@ -32,5 +32,6 @@ if [ ! -z "$CURRENT_USER" ]; then
 fi
 
 sed -i "s|:/bin/ash|:/usr/bin/nu|g" /etc/passwd
+sed -i "s|:/bin/sh|:/usr/bin/nu|g" /etc/passwd
 
 echo 'Done!'
