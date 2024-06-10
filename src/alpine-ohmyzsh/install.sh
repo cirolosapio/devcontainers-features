@@ -48,5 +48,6 @@ if command -v starship > /dev/null; then
 fi
 
 sed -i "s|:/bin/ash|:/bin/zsh|g" /etc/passwd
+sed -i "s|:/bin/sh|:/bin/zsh|g" /etc/passwd
 
 echo 'Done!'
