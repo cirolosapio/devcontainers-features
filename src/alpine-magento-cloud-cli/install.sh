@@ -21,6 +21,7 @@ CMD="cd $_CONTAINER_USER_HOME && curl -sS https://accounts.magento.cloud/cli/ins
 if [ "$SHELLTYPE" = "zsh" ]; then
 	apk --no-cache add zsh
 	sed -i "s|:/bin/ash|:/bin/zsh|g" /etc/passwd
+	sed -i "s|:/bin/sh|:/bin/zsh|g" /etc/passwd
 	CMD="$CMD -- --shell-type zsh"
 else
 	apk --no-cache add bash
