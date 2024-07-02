@@ -9,10 +9,8 @@ apk --no-cache add nodejs npm
 if [[ $COREPACK == "true" ]]; then
   npm i -g corepack
 
-  if [[ $PNPMVERSION != "latest" ]]; then
-    CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
-    su -c "corepack prepare pnpm@$PNPMVERSION --activate" $CURRENT_USER
-  fi
+  CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
+  su -c "corepack use pnpm@$PNPMVERSION" $CURRENT_USER
 fi
 
 if [[ -n "$GLOBALPACKAGES" ]]; then
