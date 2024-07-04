@@ -17,4 +17,6 @@ if [[ -n "$GLOBALPACKAGES" ]]; then
   npm i -g $GLOBALPACKAGES
 fi
 
+npm i -g @antfu/ni
+
 echo 'Done!'
