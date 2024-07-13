@@ -16,6 +16,7 @@ Create a user on alpine
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | user | The name of the user to create | string | vscode |
+| uid | The uid of the user to create | string | 1000 |
 
 
 
