@@ -6,13 +6,11 @@ echo "Activating feature 'alpine-magento-cloud-cli'"
 
 apk --no-cache add curl git
 
-CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
-
 if [ -z "$_CONTAINER_USER_HOME" ]; then
-	if [ -z "$CURRENT_USER" ]; then
+	if [ -z "$_CONTAINER_USER" ]; then
 		_CONTAINER_USER_HOME=/root
 	else
-		_CONTAINER_USER_HOME=$(getent passwd $CURRENT_USER | cut -d: -f6)
+		_CONTAINER_USER_HOME=$(getent passwd $_CONTAINER_USER | cut -d: -f6)
 	fi
 fi
 
@@ -28,6 +26,6 @@ else
 	CMD="$CMD -- --shell-type bash"
 fi
 
-su -c "$CMD" $CURRENT_USER
+su -c "$CMD" $_CONTAINER_USER
 
 echo 'Done!'

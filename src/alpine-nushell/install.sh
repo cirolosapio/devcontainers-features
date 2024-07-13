@@ -7,12 +7,10 @@ echo "Activating feature 'alpine-nushell'"
 apk --no-cache add nushell
 
 if [ -z "$_CONTAINER_USER_HOME" ]; then
-  CURRENT_USER=$(getent passwd 1000 | cut -d: -f1)
-
-  if [ -z "$CURRENT_USER" ]; then
+  if [ -z "$_CONTAINER_USER" ]; then
     _CONTAINER_USER_HOME=/root
   else
-    _CONTAINER_USER_HOME=$(getent passwd $CURRENT_USER | cut -d: -f6)
+    _CONTAINER_USER_HOME=$(getent passwd $_CONTAINER_USER | cut -d: -f6)
   fi
 fi
 
@@ -27,8 +25,8 @@ if command -v starship &> /dev/null; then
   echo $'\nuse ~/.cache/starship/init.nu' >> $_CONTAINER_USER_HOME/.config/nushell/config.nu
 fi
 
-if [ ! -z "$CURRENT_USER" ]; then
-  chown -R $CURRENT_USER $_CONTAINER_USER_HOME/.config/nushell
+if [ ! -z "$_CONTAINER_USER" ]; then
+  chown -R $_CONTAINER_USER $_CONTAINER_USER_HOME/.config/nushell
 fi
 
 sed -i "s|:/bin/ash|:/usr/bin/nu|g" /etc/passwd
