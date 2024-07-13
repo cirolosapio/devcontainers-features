@@ -1,7 +1,7 @@
 {
   "name": "alpine-user",
   "id": "alpine-user",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a user on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-user",
   "options": {
@@ -9,6 +9,11 @@
       "type": "string",
       "default": "vscode",
       "description": "The name of the user to create"
+    },
+    "uid": {
+      "type": "string",
+      "default": "1000",
+      "description": "The uid of the user to create"
     }
   }
 }
