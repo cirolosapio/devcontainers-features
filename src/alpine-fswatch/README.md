@@ -1,7 +1,7 @@
 
 # alpine-fswatch (alpine-fswatch)
 
-Create a fswatch on alpine
+Installs fswatch on alpine
 
 ## Example Usage
 
@@ -11,12 +11,7 @@ Create a fswatch on alpine
 }
 ```
 
-## Options
 
-| Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
-| fswatch | The name of the fswatch to create | string | vscode |
-| uid | The uid of the fswatch to create | string | 1000 |
 
 
 
