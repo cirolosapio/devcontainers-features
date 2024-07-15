@@ -9,6 +9,7 @@
 - [alpine-curl](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-curl)
 - [alpine-deno](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-deno)
 - [alpine-docker-outside-of-docker](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-docker-outside-of-docker)
+- [alpine-fswatch](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-fswatch)
 - [alpine-gh-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gh-cli)
 - [alpine-git](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-git)
 - [alpine-gpg](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gpg)
