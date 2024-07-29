@@ -44,5 +44,6 @@
 - [alpine-php-zip](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-zip)
 - [alpine-phpstorm-libs](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-phpstorm-libs)
 - [alpine-sentry-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-sentry-cli)
+- [alpine-sig](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-sig)
 - [alpine-starship](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-starship)
 - [alpine-user](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-user)
