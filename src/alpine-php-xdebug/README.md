@@ -17,6 +17,12 @@ Installs php xdebug on alpine
 |-----|-----|-----|-----|
 | version | Version of xdebug to install | string | 3.3.2 |
 
+## Customizations
+
+### VS Code Extensions
+
+- `xdebug.php-debug`
+
 
 
 ---
