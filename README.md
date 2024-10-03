@@ -38,6 +38,7 @@
 - [alpine-php-pcntl](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-pcntl)
 - [alpine-php-pgsql](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-pgsql)
 - [alpine-php-posix](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-posix)
+- [alpine-php-redis](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-redis)
 - [alpine-php-soap](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-soap)
 - [alpine-php-sockets](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-sockets)
 - [alpine-php-xdebug](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-xdebug)
