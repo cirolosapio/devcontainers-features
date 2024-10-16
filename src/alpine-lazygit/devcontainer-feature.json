@@ -1,0 +1,10 @@
+{
+  "name": "alpine-lazygit",
+  "id": "alpine-lazygit",
+  "version": "0.0.1",
+  "description": "Installs lazygit on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-lazygit",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ]
+}
