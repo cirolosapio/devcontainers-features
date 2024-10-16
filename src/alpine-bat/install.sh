@@ -15,7 +15,6 @@ if command -v zsh &> /dev/null; then
     fi
   fi
 
-  apk --no-cache add bat-zsh-completion
   echo $'\nalias cat=bat' >> $_CONTAINER_USER_HOME/.zshrc
 fi
 

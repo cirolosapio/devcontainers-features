@@ -1,7 +1,7 @@
 {
   "name": "alpine-deno",
   "id": "alpine-deno",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Installs deno on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-deno",
   "installsAfter": [
