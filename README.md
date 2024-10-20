@@ -7,6 +7,7 @@
 - [alpine-broot](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-broot)
 - [alpine-ctop](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-ctop)
 - [alpine-curl](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-curl)
+- [alpine-d2](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-d2)
 - [alpine-deno](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-deno)
 - [alpine-docker-outside-of-docker](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-docker-outside-of-docker)
 - [alpine-fswatch](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-fswatch)
