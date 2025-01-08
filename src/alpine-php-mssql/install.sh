@@ -13,6 +13,8 @@ curl -O https://download.microsoft.com/download/3/5/5/355d7943-a338-41a7-858d-53
 #Install the package(s)
 apk add --allow-untrusted msodbcsql18_18.3.3.1-1_amd64.apk
 apk add --allow-untrusted mssql-tools18_18.3.1.1-1_amd64.apk
+# TODO path like this is not updated
+PATH="$PATH:/opt/mssql-tools18/bin"
 
 # PHP EXTENSIONS
 apk --no-cache add unixodbc-dev
