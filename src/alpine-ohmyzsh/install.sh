@@ -6,6 +6,12 @@ echo "Activating feature 'alpine-ohmyzsh'"
 
 apk --no-cache add git zsh
 
+if [ -z "$PLUGINS" ]; then
+  PLUGINS=$DEFAULTPLUGINS
+else
+  PLUGINS="$DEFAULTPLUGINS $PLUGINS"
+fi
+
 if [ -z "$_CONTAINER_USER_HOME" ]; then
   if [ -z "$_CONTAINER_USER" ]; then
     _CONTAINER_USER_HOME=/root
