@@ -11,7 +11,11 @@ Installs pgsql client on alpine
 }
 ```
 
+## Options
 
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| version | Version to install | string | 17 |
 
 
 
