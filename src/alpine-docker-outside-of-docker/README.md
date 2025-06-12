@@ -23,7 +23,7 @@ Re-use the host docker socket, adding the Docker CLI to alpine container
 
 ### VS Code Extensions
 
-- `ms-azuretools.vscode-docker`
+- `ms-azuretools.vscode-containers`
 
 
 
