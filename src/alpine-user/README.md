@@ -17,6 +17,7 @@ Create a user on alpine
 |-----|-----|-----|-----|
 | user | The name of the user to create | string | vscode |
 | uid | The uid of the user to create | string | 1000 |
+| userFolders | Space-separated list of folders to chown to the user | string | - |
 
 
 
