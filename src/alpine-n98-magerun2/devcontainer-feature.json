@@ -1,7 +1,7 @@
 {
   "name": "alpine-n98-magerun2",
   "id": "alpine-n98-magerun2",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "Installs n98-magerun2 on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-n98-magerun2",
   "legacyIds": [
@@ -14,9 +14,10 @@
   "options": {
     "version": {
       "type": "string",
-      "default": "8.1.1",
+      "default": "9.0.1",
       "description": "Version of n98-magerun2 to install",
       "proposals": [
+        "9.0.1",
         "8.1.1",
         "7.5.0",
         "6.1.1"
