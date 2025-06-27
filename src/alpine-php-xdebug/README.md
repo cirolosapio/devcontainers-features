@@ -15,7 +15,7 @@ Installs php xdebug on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of xdebug to install | string | 3.4.3 |
+| version | Version of xdebug to install | string | 3.4.4 |
 
 ## Customizations
 
