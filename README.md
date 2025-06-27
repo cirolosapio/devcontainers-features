@@ -50,4 +50,5 @@
 - [alpine-sig](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-sig)
 - [alpine-sshs](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-sshs)
 - [alpine-starship](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-starship)
+- [alpine-sudo](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-sudo)
 - [alpine-user](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-user)
