@@ -11,13 +11,11 @@ fi
 
 apk --no-cache add docker
 
-if [[ -z $_CONTAINER_USER ]]; then
+if [ "$_CONTAINER_USER" = "root" ]; then
     ln -s /var/run/docker-host.sock /var/run/docker.sock
     echo -e '#!/bin/sh\nexec "$@"' > /usr/local/share/docker-init.sh
 else
-    apk --no-cache add socat sudo
-    echo "$_CONTAINER_USER ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/$_CONTAINER_USER
-    chmod 0440 /etc/sudoers.d/$_CONTAINER_USER
+    apk --no-cache add socat
 
     tee /usr/local/share/docker-init.sh > /dev/null \
 << EOF
