@@ -1,0 +1,11 @@
+{
+  "name": "alpine-k3d",
+  "id": "alpine-k3d",
+  "version": "0.0.1",
+  "description": "Installs k3d on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-k3d",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-curl",
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-bash"
+  ]
+}
