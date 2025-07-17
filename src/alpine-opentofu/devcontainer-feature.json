@@ -1,0 +1,7 @@
+{
+  "name": "alpine-opentofu",
+  "id": "alpine-opentofu",
+  "version": "0.0.1",
+  "description": "Installs opentofu on alpine",
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-opentofu"
+}
