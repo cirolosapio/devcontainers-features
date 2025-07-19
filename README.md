@@ -25,6 +25,7 @@
 - [alpine-nushell](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-nushell)
 - [alpine-ohmyzsh](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-ohmyzsh)
 - [alpine-openssh](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-openssh)
+- [alpine-opentofu](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-opentofu)
 - [alpine-patch](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-patch)
 - [alpine-pgsql-client](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-pgsql-client)
 - [alpine-php-bcmath](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-php-bcmath)
