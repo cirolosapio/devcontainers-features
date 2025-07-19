@@ -3,5 +3,9 @@
   "id": "alpine-kubectl",
   "version": "0.0.1",
   "description": "Installs kubectl on alpine",
-  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-kubectl"
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-kubectl",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-user",
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ]
 }
