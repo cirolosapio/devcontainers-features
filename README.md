@@ -13,6 +13,7 @@
 - [alpine-fswatch](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-fswatch)
 - [alpine-gh-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gh-cli)
 - [alpine-git](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-git)
+- [alpine-go](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-go)
 - [alpine-gpg](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gpg)
 - [alpine-jq](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-jq)
 - [alpine-lazygit](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-lazygit)
