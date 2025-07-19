@@ -16,6 +16,7 @@
 - [alpine-go](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-go)
 - [alpine-gpg](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-gpg)
 - [alpine-jq](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-jq)
+- [alpine-helm](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-helm)
 - [alpine-lazygit](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-lazygit)
 - [alpine-mage2postman](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-mage2postman)
 - [alpine-magento-cloud-cli](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-magento-cloud-cli)
