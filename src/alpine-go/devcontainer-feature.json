@@ -3,5 +3,9 @@
   "id": "alpine-go",
   "version": "0.0.1",
   "description": "Installs go on alpine",
-  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-go"
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-go",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-user",
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ]
 }
