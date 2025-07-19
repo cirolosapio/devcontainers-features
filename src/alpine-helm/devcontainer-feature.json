@@ -3,5 +3,9 @@
   "id": "alpine-helm",
   "version": "0.0.1",
   "description": "Installs helm on alpine",
-  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-helm"
+  "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-helm",
+  "installsAfter": [
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-user",
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+  ]
 }
