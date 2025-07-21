@@ -7,6 +7,14 @@ echo "Activating feature 'alpine-kubectl'"
 apk --no-cache add kubectl
 
 if command -v zsh &> /dev/null; then
+  if [ -z "$_CONTAINER_USER_HOME" ]; then
+    if [ -z "$_CONTAINER_USER" ]; then
+      _CONTAINER_USER_HOME=/root
+    else
+      _CONTAINER_USER_HOME=$(getent passwd $_CONTAINER_USER | cut -d: -f6)
+    fi
+  fi
+
   sed -i 's/^plugins=(/plugins=(\n  kubectl/g' $_CONTAINER_USER_HOME/.zshrc
 fi
 
