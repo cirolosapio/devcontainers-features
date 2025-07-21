@@ -17,7 +17,7 @@ Installs n98-magerun2 on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of n98-magerun2 to install | string | 9.0.1 |
+| version | Version of n98-magerun2 to install | string | 9.0.2 |
 
 
 
