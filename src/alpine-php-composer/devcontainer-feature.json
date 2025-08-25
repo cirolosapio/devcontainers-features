@@ -1,16 +1,16 @@
 {
   "name": "alpine-php-composer",
   "id": "alpine-php-composer",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Installs php composer on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-composer",
   "options": {
     "version": {
       "type": "string",
-      "default": "2.8.10",
+      "default": "2.8.11",
       "description": "Version of composer to install",
       "proposals": [
-        "2.8.10",
+        "2.8.11",
         "2.7.9",
         "2.6.6",
         "2.2.25"
