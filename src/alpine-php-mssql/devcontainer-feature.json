@@ -1,7 +1,7 @@
 {
   "name": "alpine-php-mssql",
   "id": "alpine-php-mssql",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Installs mssql driver for php on alpine",
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-mssql"
 }
