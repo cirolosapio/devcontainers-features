@@ -11,8 +11,8 @@ curl -O https://download.microsoft.com/download/9dcab408-e0d4-4571-a81a-5a0951e3
 curl -O https://download.microsoft.com/download/b60bb8b6-d398-4819-9950-2e30cf725fb0/mssql-tools18_18.6.1.1-1_amd64.apk
 
 #Install the package(s)
-apk add --allow-untrusted msodbcsql18_18.4.1.1-1_amd64.apk
-apk add --allow-untrusted mssql-tools18_18.4.1.1-1_amd64.apk
+apk add --allow-untrusted msodbcsql18_18.6.1.1-1_amd64.apk
+apk add --allow-untrusted mssql-tools18_18.6.1.1-1_amd64.apk
 # TODO path like this is not updated
 PATH="$PATH:/opt/mssql-tools18/bin"
 
