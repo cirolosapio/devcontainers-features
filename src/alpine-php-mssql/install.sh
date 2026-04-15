@@ -4,7 +4,7 @@ set -e
 
 echo "Activating feature 'alpine-php-mssql'"
 
-apk --no-cache add curl autoconf
+apk --no-cache add curl autoconf make g++
 
 # Download the desired package(s)
 curl -O https://download.microsoft.com/download/9dcab408-e0d4-4571-a81a-5a0951e3445f/msodbcsql18_18.6.1.1-1_amd64.apk
