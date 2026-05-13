@@ -1,7 +1,12 @@
 {
   "name": "alpine-ripgrep",
   "id": "alpine-ripgrep",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs ripgrep on alpine",
+  "keywords": [
+    "alpine",
+    "grep",
+    "ripgrep"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ripgrep"
 }

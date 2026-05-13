@@ -1,8 +1,13 @@
 {
   "name": "alpine-docker-outside-of-docker",
   "id": "alpine-docker-outside-of-docker",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Re-use the host docker socket, adding the Docker CLI to alpine container",
+  "keywords": [
+    "alpine",
+    "docker",
+    "outside"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-docker-outside-of-docker",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-user",

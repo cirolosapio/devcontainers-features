@@ -1,7 +1,13 @@
 {
   "name": "alpine-gh-cli",
   "id": "alpine-gh-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs github cli on alpine",
+  "keywords": [
+    "alpine",
+    "gh",
+    "cli",
+    "github"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gh-cli"
 }

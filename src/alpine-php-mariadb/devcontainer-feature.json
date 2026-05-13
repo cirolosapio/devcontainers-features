@@ -1,7 +1,13 @@
 {
   "name": "alpine-php-mariadb",
   "id": "alpine-php-mariadb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs mariadb driver for php on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "mariadb",
+    "driver"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-mariadb"
 }

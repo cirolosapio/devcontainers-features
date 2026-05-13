@@ -1,7 +1,14 @@
 {
   "name": "alpine-php-posix",
   "id": "alpine-php-posix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs posix extension for php on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "posix",
+    "unix",
+    "extension"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-posix"
 }

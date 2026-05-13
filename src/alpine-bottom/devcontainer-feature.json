@@ -1,8 +1,12 @@
 {
   "name": "alpine-bottom",
   "id": "alpine-bottom",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Installs bottom on alpine",
+  "keywords": [
+    "alpine",
+    "bottom"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-bottom",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"

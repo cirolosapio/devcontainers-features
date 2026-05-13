@@ -1,8 +1,12 @@
 {
   "name": "alpine-helm",
   "id": "alpine-helm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs helm on alpine",
+  "keywords": [
+    "alpine",
+    "helm"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-helm",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-user",

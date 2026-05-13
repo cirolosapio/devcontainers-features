@@ -1,7 +1,12 @@
 {
   "name": "alpine-gdb",
   "id": "alpine-gdb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs gdb on alpine",
+  "keywords": [
+    "alpine",
+    "gdb",
+    "debugger"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gdb"
 }

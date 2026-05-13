@@ -1,7 +1,13 @@
 {
   "name": "alpine-php-sockets",
   "id": "alpine-php-sockets",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Installs sockets extension for php on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "sockets",
+    "extension"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-sockets"
 }

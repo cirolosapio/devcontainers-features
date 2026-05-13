@@ -1,7 +1,11 @@
 {
   "name": "alpine-git",
   "id": "alpine-git",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs git on alpine",
+  "keywords": [
+    "alpine",
+    "git"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-git"
 }

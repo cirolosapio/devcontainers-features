@@ -1,8 +1,15 @@
 {
   "name": "alpine-pgsql-client",
   "id": "alpine-pgsql-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs pgsql client on alpine",
+  "keywords": [
+    "alpine",
+    "pgsql",
+    "postgres",
+    "postgresql",
+    "client"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-pgsql-client",
   "options": {
     "version": {

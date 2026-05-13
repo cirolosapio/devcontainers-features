@@ -1,7 +1,14 @@
 {
   "name": "alpine-php-ldap",
   "id": "alpine-php-ldap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs ldap extension for php on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "ldap",
+    "directory",
+    "extension"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-ldap"
 }

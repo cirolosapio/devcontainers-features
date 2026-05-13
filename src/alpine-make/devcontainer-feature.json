@@ -1,7 +1,11 @@
 {
   "name": "alpine-make",
   "id": "alpine-make",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs make on alpine",
+  "keywords": [
+    "alpine",
+    "make"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-make"
 }

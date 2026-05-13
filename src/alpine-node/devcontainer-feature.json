@@ -1,8 +1,13 @@
 {
   "name": "alpine-node",
   "id": "alpine-node",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Installs node and npm on alpine",
+  "keywords": [
+    "alpine",
+    "node",
+    "npm"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-node",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-user"

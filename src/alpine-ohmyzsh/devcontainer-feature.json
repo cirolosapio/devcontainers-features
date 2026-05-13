@@ -1,8 +1,13 @@
 {
   "name": "alpine-ohmyzsh",
   "id": "alpine-ohmyzsh",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "Installs ohmyzsh on alpine",
+  "keywords": [
+    "alpine",
+    "zsh",
+    "ohmyzsh"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ohmyzsh",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-user",

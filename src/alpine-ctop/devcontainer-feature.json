@@ -1,8 +1,12 @@
 {
   "name": "alpine-ctop",
   "id": "alpine-ctop",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs ctop on alpine",
+  "keywords": [
+    "alpine",
+    "ctop"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-ctop",
   "mounts": [
     {

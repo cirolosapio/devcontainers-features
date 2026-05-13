@@ -1,7 +1,11 @@
 {
   "name": "alpine-patch",
   "id": "alpine-patch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs patch on alpine",
+  "keywords": [
+    "alpine",
+    "patch"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-patch"
 }

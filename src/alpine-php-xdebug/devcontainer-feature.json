@@ -1,8 +1,13 @@
 {
   "name": "alpine-php-xdebug",
   "id": "alpine-php-xdebug",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Installs php xdebug on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "xdebug"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-xdebug",
   "options": {
     "version": {

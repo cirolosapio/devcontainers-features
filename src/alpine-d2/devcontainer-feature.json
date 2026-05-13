@@ -1,7 +1,11 @@
 {
   "name": "alpine-d2",
   "id": "alpine-d2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs d2 on alpine",
+  "keywords": [
+    "alpine",
+    "d2"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-d2"
 }

@@ -1,7 +1,15 @@
 {
   "name": "alpine-php-pgsql",
   "id": "alpine-php-pgsql",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs pgsql driver for php on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "pgsql",
+    "postgres",
+    "postgresql",
+    "driver"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-pgsql"
 }

@@ -1,8 +1,12 @@
 {
   "name": "alpine-nushell",
   "id": "alpine-nushell",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Installs nushell on alpine",
+  "keywords": [
+    "alpine",
+    "nushell"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-nushell",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-user",

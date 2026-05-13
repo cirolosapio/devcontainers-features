@@ -1,8 +1,12 @@
 {
   "name": "alpine-aws-cli",
   "id": "alpine-aws-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Installs aws-cli on alpine",
+  "keywords": [
+    "alpine",
+    "aws"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-aws-cli",
   "installsAfter": [
     "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"

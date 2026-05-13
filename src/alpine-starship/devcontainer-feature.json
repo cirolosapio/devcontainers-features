@@ -1,7 +1,11 @@
 {
   "name": "alpine-starship",
   "id": "alpine-starship",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Installs starship on alpine",
+  "keywords": [
+    "alpine",
+    "starship"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-starship"
 }

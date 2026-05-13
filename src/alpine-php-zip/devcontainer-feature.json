@@ -1,7 +1,12 @@
 {
   "name": "alpine-php-zip",
   "id": "alpine-php-zip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs zip for php on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "zip"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-zip"
 }

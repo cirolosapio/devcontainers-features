@@ -1,7 +1,12 @@
 {
   "name": "alpine-gpg",
   "id": "alpine-gpg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs gpg on alpine",
+  "keywords": [
+    "alpine",
+    "gpg",
+    "encryption"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-gpg"
 }

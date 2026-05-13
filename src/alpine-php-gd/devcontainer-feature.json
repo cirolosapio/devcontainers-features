@@ -1,7 +1,14 @@
 {
   "name": "alpine-php-gd",
   "id": "alpine-php-gd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Installs gd extension for php on alpine",
+  "keywords": [
+    "alpine",
+    "php",
+    "gd",
+    "graphics",
+    "extension"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-php-gd"
 }

@@ -1,8 +1,12 @@
 {
   "name": "alpine-user",
   "id": "alpine-user",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create a user on alpine",
+  "keywords": [
+    "alpine",
+    "user"
+  ],
   "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-user",
   "options": {
     "user": {
