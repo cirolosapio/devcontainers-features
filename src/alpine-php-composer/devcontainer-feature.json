@@ -1,7 +1,7 @@
 {
   "name": "alpine-php-composer",
   "id": "alpine-php-composer",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "Installs php composer on alpine",
   "keywords": [
     "alpine",
@@ -12,10 +12,10 @@
   "options": {
     "version": {
       "type": "string",
-      "default": "2.10.0",
+      "default": "2.10.1",
       "description": "Version of composer to install",
       "proposals": [
-        "2.10.0",
+        "2.10.1",
         "2.9.8",
         "2.8.12",
         "2.7.9",

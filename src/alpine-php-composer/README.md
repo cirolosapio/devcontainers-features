@@ -15,7 +15,7 @@ Installs php composer on alpine
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Version of composer to install | string | 2.10.0 |
+| version | Version of composer to install | string | 2.10.1 |
 
 
 
