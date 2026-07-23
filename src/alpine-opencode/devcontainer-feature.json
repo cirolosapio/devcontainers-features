@@ -1,0 +1,15 @@
+{
+    "name": "alpine-opencode",
+    "id": "alpine-opencode",
+    "version": "0.0.1",
+    "description": "Installs opencode on alpine",
+    "documentationURL": "https://github.com/cirolosapio/devcontainers-features/tree/main/src/alpine-opencode",
+    "keywords": [
+        "ai",
+        "opencode"
+    ],
+    "installsAfter": [
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-user",
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh"
+    ]
+}

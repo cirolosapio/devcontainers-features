@@ -30,6 +30,7 @@
 - [alpine-node](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-node)
 - [alpine-nushell](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-nushell)
 - [alpine-ohmyzsh](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-ohmyzsh)
+- [alpine-opencode](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-opencode)
 - [alpine-openssh](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-openssh)
 - [alpine-opentofu](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-opentofu)
 - [alpine-patch](https://github.com/cirolosapio/devcontainers-features/pkgs/container/devcontainers-features%2Falpine-patch)
