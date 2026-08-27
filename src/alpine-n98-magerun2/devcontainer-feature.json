@@ -1,7 +1,7 @@
 {
   "name": "alpine-n98-magerun2",
   "id": "alpine-n98-magerun2",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "Installs n98-magerun2 on alpine",
   "keywords": [
     "alpine",
@@ -20,9 +20,10 @@
   "options": {
     "version": {
       "type": "string",
-      "default": "9.5.1",
+      "default": "10.0.2",
       "description": "Version of n98-magerun2 to install",
       "proposals": [
+        "10.0.2",
         "9.5.1",
         "8.1.1",
         "7.5.0",
